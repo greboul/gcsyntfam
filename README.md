@@ -41,10 +41,10 @@ The folder "\_other\_files" contains additional informations (2 files and 2 fold
 * log: log folder
 
 execute _gcsyntfam\_families\_preparation.sh_ \<PB\_list file\> \<Nbcol file\> \<size GC\> \<synteny directory\>   
-*\<PB\_list file\>: the file containing UniProtKB identifiers in its _FIRST_ column   
-*\<Nbcol file\>: integer corresponding to the number of columns in the PB\_list file (ecxept the first column, other columns can be used to store metadata)   
-*\<size GC\>: integer corresponding to how many genes before and after the gene of interest you want to keep (). Warning, this integer should be >= 2 to obtain at least 5 genes (included the one of interest) in total to compare for each protein.   
-*\<synteny directory\>:  the name of the directory with only characters from [A-Za-z0-9-] allowed in which the preparation will be done   
+* \<PB\_list file\>: the file containing UniProtKB identifiers in its _FIRST_ column   
+* \<Nbcol file\>: integer corresponding to the number of columns in the PB\_list file (ecxept the first column, other columns can be used to store metadata)   
+* \<size GC\>: integer corresponding to how many genes before and after the gene of interest you want to keep (). Warning, this integer should be >= 2 to obtain at least 5 genes (included the one of interest) in total to compare for each protein.   
+* \<synteny directory\>:  the name of the directory with only characters from [A-Za-z0-9-] allowed in which the preparation will be done   
 This step can be run multiple times with multiple sets of proteins in order to compare within the sets but also between the sets the genomic contexts of the proteins of interest.
 
 ### Setting a project
